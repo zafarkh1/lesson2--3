@@ -1,0 +1,42 @@
+$nnu: yellow;
+
+// :root {
+// 	--asosiy-rang: red;
+// }
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+	color: $nnu;
+}
+
+h2 {
+	color: $nnu;
+}
+
+p {
+	/* background-color: var(--asosiy-rang); */
+	border: 5px solid $nnu;
+}
+
+.header#main-header {
+	display: flex;
+
+	.container.flex {
+	font-size: 100px;
+
+	.portion {
+	background-color: yellow;
+
+	font: {
+		size: 10px;
+		weight: 23px;
+		family: sans-serif;
+		style: italic;
+	  }
+	 }
+	}
+}
+

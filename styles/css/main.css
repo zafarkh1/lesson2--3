@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: yellow;
+}
+
+h2 {
+  color: yellow;
+}
+
+p {
+  /* background-color: var(--asosiy-rang); */
+  border: 5px solid yellow;
+}
+
+.header#main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header#main-header .container.flex {
+  font-size: 100px;
+}
+.header#main-header .container.flex .portion {
+  background-color: yellow;
+  font-size: 10px;
+  font-weight: 23px;
+  font-family: sans-serif;
+  font-style: italic;
+}/*# sourceMappingURL=main.css.map */
